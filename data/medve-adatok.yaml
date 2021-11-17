@@ -1,0 +1,10 @@
+---
+- name: e-mail cím
+  info: segitunk@hazmestermedve.hu
+  details: Kérjük, az e-maileket másolatként küldjék el az Elnök részére is!
+- name: telefonszám
+  info: "+36 30 123 4567"
+  details: feltöltés alatt
+- name: levelezési cím
+  info: "1000 Budapest, Lorem Ipsum út 69."
+  details: feltöltés alatt

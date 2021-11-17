@@ -1,0 +1,10 @@
+---
+- name: Elérhetőségek
+  url: "#!/contact"
+  color: primary
+- name: Alapszabály
+  url: "#!/asz"
+  color: primary
+- name: Határozatok
+  url: "#!/hatarozatok"
+  color: primary

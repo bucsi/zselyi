@@ -1,0 +1,16 @@
+header{
+    /*min-height: 110px;*/
+}
+
+#logo {
+    width: 100px;
+    object-fit: cover;
+    object-position: 0px 0px; /* try 20px 10px */ 
+}
+
+hr {
+    visibility: visible !important;
+    height: 1px !important;
+    background: #517d81 !important;
+    margin: 2em 0 2em 0 !important;
+}
