@@ -9,6 +9,9 @@ async function getLastModTime() {
   const r = await fetch(getCurrentFileURL());
   if (!r.ok) {
     document.querySelector("#lastModified").innerHTML = "Utoljára módosítva: nincs információ";
+    console.log(getCurrentFileURL())
+    console.log(r)
+    console.log(r.headers)
     return;
   }
   const d = Array.from(r.headers).filter(elm => elm[0] === "last-modified")[0][1];
