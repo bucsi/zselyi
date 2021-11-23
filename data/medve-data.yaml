@@ -1,0 +1,9 @@
+---
+- name: közös képviselet
+  info: Hexon Immobilien Kft.
+- name: levelezési cím
+  info: "1000 Budapest, Lorem Ipsum út 69."
+- name: e-mail cím
+  info: segitunk@hazmestermedve.hu
+- name: telefonszám
+  info: "+36 30 123 4567"

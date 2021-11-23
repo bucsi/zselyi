@@ -1,0 +1,9 @@
+---
+- name: a FB elnöke
+  info: Példa János
+- name: a FB tagja
+  info: Példa Jánosné
+- name: a FB tagja
+  info: Minta Géza
+- name: a FB e-mail címe
+  info: fb@zselyi.net
