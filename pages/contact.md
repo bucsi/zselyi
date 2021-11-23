@@ -1,6 +1,7 @@
 ---
-elnokseg-adatok: !file elnokseg-adatok.yaml
-medve-adatok: !file medve-adatok.yaml
+elnokseg-adatok: !file elnok-data.yaml
+medve-adatok: !file medve-data.yaml
+fb-adatok: !file fb-data.yaml
 ---
 
 # Elérhetőségek
@@ -9,28 +10,32 @@ A Zsélyi Aladár Lakásfenntartó Szövetkezet a volt Jókai Lakótelep 12-es �
 Levelezési cím: 1165 Budapest, Hunyadvár utca 20.
 
 ## Üzemeltetés
-Közös képviseleti és üzemeltetési feladatainkat a Hexon Immobilien Kft. látja el.
-
-<section class="three columns">
+<section class="two columns">
 {{#medve-adatok}}
 <div class="primary card">
     <strong>{{info}}</strong><br>
-    {{name}}<br>
-    {{details}}
+    {{name}}
 </div>
 {{/medve-adatok}}
 </section>
 
 
-## Elnök és Felügyelőbizottság
-A lakásszövetkezet elnöke Bucsánszki Tamás.  
-A Felügyelőbizottság elnöke: Példa János, tagjai: Példa Jánosné és Minta István
+## Ügyvezető elnök
 <section class="three columns">
 {{#elnokseg-adatok}}
 <div class="primary card">
     <strong>{{info}}</strong><br>
-    {{name}}<br>
-    {{details}}
+    {{name}}
 </div>
 {{/elnokseg-adatok}}
+</section>
+
+## Felügyelő bizottság
+<section class="four columns">
+{{#fb-adatok}}
+<div class="primary card">
+    <strong>{{info}}</strong><br>
+    {{name}}
+</div>
+{{/fb-adatok}}
 </section>
