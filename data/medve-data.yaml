@@ -1,8 +1,8 @@
 ---
-- name: közös képviselet
+- name: üzemeltetés, közös képviselet
   info: Hexon Immobilien Kft.
 - name: levelezési cím
-  info: "1000 Budapest, Lorem Ipsum út 69."
+  info: "1027 Budapest, Bem József utca 6. fszt."
 - name: e-mail cím
   info: segitunk@hazmestermedve.hu
 - name: telefonszám

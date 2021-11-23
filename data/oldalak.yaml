@@ -8,3 +8,6 @@
 - name: Határozatok
   url: "#!/hatarozatok"
   color: primary
+- name: Ügyfélkapu
+  url: "https://koltsegsql.info/hexon/"
+  color: accent
